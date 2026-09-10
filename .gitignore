@@ -1,0 +1,41 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# ── Virtual environments ──
+.venv/
+venv/
+ENV/
+env/
+
+# ── Environment variables ──
+.env
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS generated ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Gradio ──
+flagged/
+
+# ── Temporary / output files ──
+*.tmp
+outputs/*
+!outputs/.gitkeep
+bin/
+*.exe
