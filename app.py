@@ -176,9 +176,12 @@ with gr.Blocks(title="Customized Resume Builder") as demo:
 
 
 if __name__ == "__main__":
+     # Get the port Render provides, defaulting to 10000 for local testing.
+    port = int(os.getenv("PORT", "10000"))
+
     demo.launch(
-        server_name=settings.server_name,
-        server_port=settings.port,
+        server_name="0.0.0.0",   # Required for Render
+        server_port=port,        # Use the port Render provides
         share=settings.share,
         theme=gr.themes.Soft(),
         css=APP_CSS,
