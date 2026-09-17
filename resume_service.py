@@ -9,7 +9,22 @@ from llm_client import LLM
 DEFAULT_AI_SKILLS = (
     "Artificial Intelligence, Generative AI, Machine Learning, LLMs, "
     "Prompt Engineering, Azure OpenAI, Spring AI, LangChain, RAG, "
-    "Vector Databases"
+    "Vector Databases, "
+    
+    # --- Core Data Science & ML Gaps ---
+    "NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, NLP, Deep Learning, "
+    "Transformers, Probability & Statistics, Model Evaluation, Hallucination Reduction, Embeddings, "
+    # --- Backend/API Gaps ---
+    "FastAPI, Flask, "
+    # --- Agentic & Advanced AI Gaps ---
+    "LangGraph, AutoGen, CrewAI, Multi-step Agent Workflows, Reasoning Loops, Agent Memory, "
+    # --- Database Gaps ---
+    "ChromaDB, FAISS, NoSQL, "
+    # --- Cloud/Deployment Gaps ---
+    "AWS, GCP, Azure, "
+    # --- Business Automation & Domain Gaps ---
+    "Automation Workflows, Recommendation Systems, Optimization Engines, "
+    "Computer Vision Systems, ROI Optimization"
 )
 
 
